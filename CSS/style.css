@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inter:wght@600&family=Montserrat:ital,wght@1,200;1,500&family=Playfair+Display:ital@1&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: block;
+    padding: 7px;
+    background: brown;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 8px;
+    margin-top: 0;
+}
+
+.conteiner {
+    display: block;
+    text-align: center;
+}
+
+.caption {
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.choose-title {
+    margin-top: 25px;
+    font-size: 48px;
+}
+
+.fotos {
+    display: table;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+#left {
+    margin-left: 200px;
+}
+
+#right {
+    margin-right: 200px;
+}
+
+#left, #right {
+    width: 400px;
+    height: 450px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+#left:hover, #right:hover {
+    cursor: pointer;
+}
+
+.or {
+    display: table-cell;
+    vertical-align: middle;
+}
