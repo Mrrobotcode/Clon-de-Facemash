@@ -5,12 +5,12 @@ var rightNum ='02';
 
 left.addEventListener('click', function () {
     rightNum = getImage();
-    right.setAttribute('src', `/img/${rightNum}.png`);
+    right.setAttribute('src', `/Img/${rightNum}.png`);
 });
 
 right.addEventListener('click', function () {
     leftNum = getImage();
-    left.setAttribute('src', `/Img/${getImage()}.png`);
+    left.setAttribute('src', `/Img/${rightNum}.png`);
 });
 
 function getImage() {
