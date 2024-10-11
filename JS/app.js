@@ -10,7 +10,7 @@ left.addEventListener('click', function () {
 
 right.addEventListener('click', function () {
     leftNum = getImage();
-    left.setAttribute('src', `/Img/${rightNum}.png`);
+    left.setAttribute('src', `/Img/${leftNum}.png`);
 });
 
 function getImage() {
